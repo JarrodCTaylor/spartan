@@ -126,6 +126,7 @@ call s:HL('pythonException',   defaultForeground, defaultBackground, 'none')
 call s:HL('pythonInclude',     defaultForeground, defaultBackground, 'none')
 call s:HL('pythonPreCondit',   defaultForeground, defaultBackground, 'none')
 call s:HL('pythonExClass',     defaultForeground, defaultBackground, 'none')
+call s:HL('pythonDecorator',   defaultForeground, defaultBackground, 'none')
 
 " Javascript specific highlighting
 call s:HL('jsFunction',    defaultForeground, defaultBackground, 'none')
