@@ -164,6 +164,8 @@ call s:HL('clojureMeta',           defaultForeground, defaultBackground, 'none')
 call s:HL('clojuleonidaseref',     defaultForeground, defaultBackground, 'none')
 call s:HL('clojureAnonArg',        defaultForeground, defaultBackground, 'none')
 call s:HL('clojuleonidasispatch',  defaultForeground, defaultBackground, 'none')
+call s:HL('clojureConstant',       defaultForeground, defaultBackground, 'none')
+call s:HL('clojureDefine',         defaultForeground, defaultBackground, 'none')
 
 " SQL specific highlighting
 call s:HL('sqlKeyword',   white, 'none', 'bold')
