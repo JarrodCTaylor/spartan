@@ -190,6 +190,6 @@ call s:HL('vimfilerOpenedFile', persian, 'none', 'none')
 call s:HL('vimfilerClosedFile', persian, 'none', 'none')
 
 " Sneak plugin specific highlighting
-call s:HL('SneakPluginTarget', white,             defaultForeground, 'none')
-call s:HL('SneakStreakTarget', persian,           defaultForeground, 'underline')
-call s:HL('SneakStreakMask',   defaultForeground, defaultForeground, 'underline')
+call s:HL('SneakPluginTarget', persian, defaultBackground, 'underline')
+call s:HL('SneakStreakTarget', smoke,   persian,           'none')
+call s:HL('SneakStreakMask',   persian, persian,           'none')
