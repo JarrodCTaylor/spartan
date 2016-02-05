@@ -187,8 +187,9 @@ call s:HL('markdownH5', persian, 'none', 'none')
 call s:HL('markdownH6', persian, 'none', 'none')
 
 " Vimfiler
-call s:HL('vimfilerOpenedFile', persian, 'none', 'none')
-call s:HL('vimfilerClosedFile', persian, 'none', 'none')
+call s:HL('vimfilerOpenedFile',    persian,           'none',            'none')
+call s:HL('vimfilerClosedFile',    persian,           'none',            'none')
+call s:HL('uniteExrenameModified', defaultForeground, defaultBackground, 'none')
 
 " Sneak plugin specific highlighting
 call s:HL('SneakPluginTarget', persian, defaultBackground, 'underline')
