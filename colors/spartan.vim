@@ -129,18 +129,32 @@ call s:HL('pythonExClass',     defaultForeground, defaultBackground, 'none')
 call s:HL('pythonDecorator',   defaultForeground, defaultBackground, 'none')
 
 " Javascript specific highlighting
-call s:HL('jsFunction',    defaultForeground, defaultBackground, 'none')
-call s:HL('jsFuncCall',    defaultForeground, defaultBackground, 'none')
-call s:HL('jsConditional', defaultForeground, defaultBackground, 'none')
-call s:HL('jsRepeat',      defaultForeground, defaultBackground, 'none')
-call s:HL('jsNumber',      defaultForeground, defaultBackground, 'none')
-call s:HL('jsMember',      defaultForeground, defaultBackground, 'none')
+call s:HL('jsFunction',     defaultForeground, defaultBackground, 'none')
+call s:HL('jsFuncCall',     defaultForeground, defaultBackground, 'none')
+call s:HL('jsConditional',  defaultForeground, defaultBackground, 'none')
+call s:HL('jsRepeat',       defaultForeground, defaultBackground, 'none')
+call s:HL('jsNumber',       defaultForeground, defaultBackground, 'none')
+call s:HL('jsMember',       defaultForeground, defaultBackground, 'none')
+call s:HL('jsModules',      defaultForeground, defaultBackground, 'none')
+call s:HL('jsModuleWords',  defaultForeground, defaultBackground, 'none')
 
 " Html specific highlighting
-call s:HL('htmlTag',        defaultForeground, defaultBackground, 'none')
-call s:HL('htmlTagName',    defaultForeground, defaultBackground, 'none')
-call s:HL('htmlArg',        defaultForeground, defaultBackground, 'none')
-call s:HL('htmlScriptTag',  defaultForeground, defaultBackground, 'none')
+call s:HL('htmlTag',       defaultForeground, defaultBackground, 'none')
+call s:HL('htmlTagName',   defaultForeground, defaultBackground, 'none')
+call s:HL('htmlArg',       defaultForeground, defaultBackground, 'none')
+call s:HL('htmlScriptTag', defaultForeground, defaultBackground, 'none')
+call s:HL('htmlH',         defaultForeground, defaultBackground, 'none')
+call s:HL('htmlH1',        defaultForeground, defaultBackground, 'none')
+call s:HL('htmlH2',        defaultForeground, defaultBackground, 'none')
+call s:HL('htmlH3',        defaultForeground, defaultBackground, 'none')
+call s:HL('htmlH4',        defaultForeground, defaultBackground, 'none')
+
+" CSS specific highlighting
+call s:HL('htmlH4',        defaultForeground, defaultBackground, 'none')
+call s:HL('cssDefinition', defaultForeground, defaultBackground, 'none')
+call s:HL('cssAttrRegion', defaultForeground, defaultBackground, 'none')
+call s:HL('cssCommonAttr', defaultForeground, defaultBackground, 'none')
+call s:HL('cssAttr',       defaultForeground, defaultBackground, 'none')
 
 " Clojure specific highlighting
 call s:HL('clojureConsmessengert', defaultForeground, defaultBackground, 'none')
