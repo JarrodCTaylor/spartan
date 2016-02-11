@@ -182,6 +182,16 @@ call s:HL('clojuleonidasispatch',  defaultForeground, defaultBackground, 'none')
 call s:HL('clojureConstant',       defaultForeground, defaultBackground, 'none')
 call s:HL('clojureDefine',         defaultForeground, defaultBackground, 'none')
 
+" Ruby specific highlighting
+call s:HL('rubyClass',      defaultForeground, defaultBackground, 'none')
+call s:HL('rubyKeyword',    defaultForeground, defaultBackground, 'none')
+call s:HL('rubyOperator',   defaultForeground, defaultBackground, 'none')
+call s:HL('rubyDefine',     defaultForeground, defaultBackground, 'none')
+call s:HL('rubyIdentifier', defaultForeground, defaultBackground, 'none')
+call s:HL('rubyInclude',    defaultForeground, defaultBackground, 'none')
+call s:HL('rubySymbol',     defaultForeground, defaultBackground, 'none')
+call s:HL('rubyKeyword',    defaultForeground, defaultBackground, 'none')
+
 " SQL specific highlighting
 call s:HL('sqlKeyword',   white, 'none', 'bold')
 call s:HL('sqlFunction',  white, 'none', 'bold')
