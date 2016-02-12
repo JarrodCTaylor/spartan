@@ -148,6 +148,8 @@ call s:HL('htmlH1',        defaultForeground, defaultBackground, 'none')
 call s:HL('htmlH2',        defaultForeground, defaultBackground, 'none')
 call s:HL('htmlH3',        defaultForeground, defaultBackground, 'none')
 call s:HL('htmlH4',        defaultForeground, defaultBackground, 'none')
+call s:HL('htmlHead',      defaultForeground, defaultBackground, 'none')
+call s:HL('htmlTitle',     defaultForeground, defaultBackground, 'none')
 
 " CSS specific highlighting
 call s:HL('htmlH4',        defaultForeground, defaultBackground, 'none')
