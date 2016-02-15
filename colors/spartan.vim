@@ -152,11 +152,17 @@ call s:HL('htmlHead',      defaultForeground, defaultBackground, 'none')
 call s:HL('htmlTitle',     defaultForeground, defaultBackground, 'none')
 
 " CSS specific highlighting
-call s:HL('htmlH4',        defaultForeground, defaultBackground, 'none')
-call s:HL('cssDefinition', defaultForeground, defaultBackground, 'none')
-call s:HL('cssAttrRegion', defaultForeground, defaultBackground, 'none')
-call s:HL('cssCommonAttr', defaultForeground, defaultBackground, 'none')
-call s:HL('cssAttr',       defaultForeground, defaultBackground, 'none')
+call s:HL('cssDefinition',      defaultForeground, defaultBackground, 'none')
+call s:HL('cssAttrRegion',      defaultForeground, defaultBackground, 'none')
+call s:HL('cssCommonAttr',      defaultForeground, defaultBackground, 'none')
+call s:HL('cssAttr',            defaultForeground, defaultBackground, 'none')
+call s:HL('lessDefinition',     defaultForeground, defaultBackground, 'none')
+call s:HL('lessNestedSelector', defaultForeground, defaultBackground, 'none')
+call s:HL('lessClass',          defaultForeground, defaultBackground, 'none')
+call s:HL('cssPseudoClass',     defaultForeground, defaultBackground, 'none')
+call s:HL('cssPseudoClassId',   defaultForeground, defaultBackground, 'none')
+call s:HL('cssColor',           defaultForeground, defaultBackground, 'none')
+call s:HL('lessVariableValue',  defaultForeground, defaultBackground, 'none')
 
 " Clojure specific highlighting
 call s:HL('clojureConsmessengert', defaultForeground, defaultBackground, 'none')
