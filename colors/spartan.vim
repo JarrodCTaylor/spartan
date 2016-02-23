@@ -201,10 +201,16 @@ call s:HL('rubySymbol',     defaultForeground, defaultBackground, 'none')
 call s:HL('rubyKeyword',    defaultForeground, defaultBackground, 'none')
 
 " SQL specific highlighting
-call s:HL('sqlKeyword',   white, 'none', 'bold')
-call s:HL('sqlFunction',  white, 'none', 'bold')
-call s:HL('sqlStatement', white, 'none', 'bold')
-call s:HL('sqlSpecial',   white, 'none', 'bold')
+call s:HL('sqlKeyword',   defaultForeground, defaultBackground, 'none')
+call s:HL('sqlFunction',  defaultForeground, defaultBackground, 'none')
+call s:HL('sqlStatement', defaultForeground, defaultBackground, 'none')
+call s:HL('sqlSpecial',   defaultForeground, defaultBackground, 'none')
+
+" Bash specific highlighting
+call s:HL('shIf',             defaultForeground, defaultBackground, 'none')
+call s:HL('shDerefSimple',    defaultForeground, defaultBackground, 'none')
+call s:HL('shDeref',          defaultForeground, defaultBackground, 'none')
+call s:HL('shShellVariables', defaultForeground, defaultBackground, 'none')
 
 " Used for wiki plugin
 call s:HL('WikiLink',         persian,  'none', 'underline')
