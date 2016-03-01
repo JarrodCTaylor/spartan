@@ -210,7 +210,12 @@ call s:HL('sqlSpecial',   defaultForeground, defaultBackground, 'none')
 call s:HL('shIf',             defaultForeground, defaultBackground, 'none')
 call s:HL('shDerefSimple',    defaultForeground, defaultBackground, 'none')
 call s:HL('shDeref',          defaultForeground, defaultBackground, 'none')
+call s:HL('zshDeref',         defaultForeground, defaultBackground, 'none')
 call s:HL('shShellVariables', defaultForeground, defaultBackground, 'none')
+call s:HL('zshString',        defaultForeground, defaultBackground, 'none')
+call s:HL('zshSubst',         defaultForeground, defaultBackground, 'none')
+call s:HL('zshSubstDelim',    defaultForeground, defaultBackground, 'none')
+
 
 " Used for wiki plugin
 call s:HL('WikiLink',         persian,  'none', 'underline')
