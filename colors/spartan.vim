@@ -163,6 +163,9 @@ call s:HL('cssPseudoClass',     defaultForeground, defaultBackground, 'none')
 call s:HL('cssPseudoClassId',   defaultForeground, defaultBackground, 'none')
 call s:HL('cssColor',           defaultForeground, defaultBackground, 'none')
 call s:HL('lessVariableValue',  defaultForeground, defaultBackground, 'none')
+call s:HL('cssInclude',         defaultForeground, defaultBackground, 'none')
+call s:HL('cssIncludeKeyword',  defaultForeground, defaultBackground, 'none')
+call s:HL('cssVendor',          defaultForeground, defaultBackground, 'none')
 
 " Clojure specific highlighting
 call s:HL('clojureConsmessengert', defaultForeground, defaultBackground, 'none')
