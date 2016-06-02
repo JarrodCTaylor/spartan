@@ -108,10 +108,10 @@ call s:HL('DiffDelete', smoke,    thermopylae, 'none')
 call s:HL('DiffText',   leonidas, smoke,       'bold')
 
 " Popup menu styles
-call s:HL('Pmenu',      defaultForeground, ephialtes, 'none')
-call s:HL('PmenuSel',   defaultForeground, ephialtes, 'reverse')
-call s:HL('PmenuSbar',  defaultForeground, 'none',    'none')
-call s:HL('PmenuThumb', leonidas,          'none',    'none')
+call s:HL('Pmenu',      defaultForeground, smoke,             'none')
+call s:HL('PmenuSel',   xerxes,            defaultForeground, 'reverse')
+call s:HL('PmenuSbar',  defaultForeground, 'none',            'none')
+call s:HL('PmenuThumb', leonidas,          'none',            'none')
 
 " Spelling
 call s:HL('SpellBad',   narrow,  leonidas, 'underline')
