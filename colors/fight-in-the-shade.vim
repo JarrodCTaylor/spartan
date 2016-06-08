@@ -40,7 +40,7 @@ let arcadian          = 65
 let persian           = 67
 let leonidas          = 88
 let xerxes            = 130
-let ephialtes         = 236
+let ephialtes         = 23
 
 function! s:HL(item, fgColor, bgColor, style)
     execute 'hi ' . a:item . ' ctermfg=' . a:fgColor . ' ctermbg=' . a:bgColor . ' cterm=' . a:style
@@ -92,7 +92,7 @@ call s:HL('Delimiter',      'none',            'none', 'none')
 call s:HL('SpecialComment', 'none',            'none', 'none')
 call s:HL('Debug',          'none',            'none', 'none')
 call s:HL('Directory',      persian,           'none', 'none')
-call s:HL('Comment',        thermopylae,       'none', 'none')
+call s:HL('Comment',        ephialtes,         'none', 'none')
 call s:HL('PreProc',        persian,           'none', 'none')
 call s:HL('Constant',       persian,           'none', 'none')
 call s:HL('Type',           defaultForeground, 'none', 'none')
