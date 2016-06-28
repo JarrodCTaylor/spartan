@@ -12,16 +12,16 @@ activities. The answer I arrived that was nothing. Sparta is my attempt at
 providing only the necessary coloring. Spartan is simple, frugal and highly
 effective.
 
-## Screenshots
+## Colors In Action
 
-### Python
+### Spartan
 
-![Python](https://cloud.githubusercontent.com/assets/4416952/12693331/d42032a4-c6cc-11e5-9e29-662d969191be.png)
+![spartan](https://cloud.githubusercontent.com/assets/4416952/16434641/9c28006a-3d56-11e6-92c7-a06042e99f78.gif)
 
-### JavaScript
+### Immortals
 
-![Javascript](https://cloud.githubusercontent.com/assets/4416952/12693299/0f84b000-c6cc-11e5-9ba7-c55295e199da.png)
+![imortals](https://cloud.githubusercontent.com/assets/4416952/16434688/de476d14-3d56-11e6-9f79-15d80e3c4bfc.gif)
 
-### HTML
+### Fight In The Shade
 
-![HTML](https://cloud.githubusercontent.com/assets/4416952/12693344/f639f488-c6cc-11e5-91f5-843b5804cf94.png)
+![fight-in-the-shade](https://cloud.githubusercontent.com/assets/4416952/16434704/021a6930-3d57-11e6-86e1-29e6b8508413.gif)
