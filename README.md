@@ -25,3 +25,9 @@ effective.
 ### Fight In The Shade
 
 ![fight-in-the-shade](https://cloud.githubusercontent.com/assets/4416952/16434704/021a6930-3d57-11e6-86e1-29e6b8508413.gif)
+
+### Thermopylae
+
+*Requires 24bit Truecolor Support*
+
+![thermopylae](https://cloud.githubusercontent.com/assets/4416952/18616346/be0342bc-7d7f-11e6-99c1-c18fbb765863.gif)
