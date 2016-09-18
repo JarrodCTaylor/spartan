@@ -41,8 +41,10 @@ let arcadian          = 29
 let leonidas          = 88
 let dilios            = 58
 
+let s:colormap={255: '#EEEEEE', 234: '#1c1c1c', 239: '#4e4e4e', 245: '#8a8a8a', 236: '#303030', 66: '#5F8787', 101: '#87875F', 29: '#00875F', 88: '#870000', 58: '#5F5F00', 'none': 'NONE'}
+
 function! s:HL(item, fgColor, bgColor, style)
-    execute 'hi ' . a:item . ' ctermfg=' . a:fgColor . ' ctermbg=' . a:bgColor . ' cterm=' . a:style
+    execute 'hi ' . a:item . ' ctermfg=' . a:fgColor . ' ctermbg=' . a:bgColor . ' guifg= ' . s:colormap[a:fgColor] . ' guibg= ' . s:colormap[a:bgColor] . ' cterm=' . a:style
 endfunction
 
 call s:HL('Normal',       defaultForeground, defaultBackground, 'none')      " Normal text

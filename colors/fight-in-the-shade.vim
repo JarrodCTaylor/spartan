@@ -31,6 +31,8 @@ let g:colors_name="fight-in-the-shade"
 " Color palette
 " 235 59 60 245 236 65 67 88
 
+let s:colormap={235: '#262626', 59: '#5F5F5F', 60: '#5F5F87', 245: '#8A8A8A', 236: '#303030', 65: '#5F875F', 67: '#5F87AF', 88: '#870000', 130: '#AF5F00', 23: '#005F5F', 'none': 'NONE'}
+
 let defaultBackground = 235
 let defaultForeground = 59
 let messenger         = 60
@@ -43,7 +45,7 @@ let xerxes            = 130
 let ephialtes         = 23
 
 function! s:HL(item, fgColor, bgColor, style)
-    execute 'hi ' . a:item . ' ctermfg=' . a:fgColor . ' ctermbg=' . a:bgColor . ' cterm=' . a:style
+    execute 'hi ' . a:item . ' ctermfg=' . a:fgColor . ' ctermbg=' . a:bgColor . ' guifg= ' . s:colormap[a:fgColor] . ' guibg= ' . s:colormap[a:bgColor] . ' cterm=' . a:style
 endfunction
 
 call s:HL('Normal',       defaultForeground, defaultBackground, 'none')      " Normal text
