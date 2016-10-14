@@ -202,3 +202,9 @@ call s:HL('uniteExrenameModified', fg1,     bg1,    'NONE')
 call s:HL('SneakPluginTarget', blue2, bg1,   'underline')
 call s:HL('SneakStreakTarget', gray1, blue2, 'NONE')
 call s:HL('SneakStreakMask',   blue2, blue2, 'NONE')
+
+" Spelling
+call s:HL('SpellBad',   red1,    'NONE', 'underline')
+call s:HL('SpellCap',   yellow1, 'NONE', 'underline')
+call s:HL('SpellLocal', yellow1, 'NONE', 'underline')
+call s:HL('SpellRare',  yellow1, 'NONE', 'underline')
