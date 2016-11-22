@@ -208,3 +208,8 @@ call s:HL('SpellBad',   red1,    'NONE', 'underline')
 call s:HL('SpellCap',   yellow1, 'NONE', 'underline')
 call s:HL('SpellLocal', yellow1, 'NONE', 'underline')
 call s:HL('SpellRare',  yellow1, 'NONE', 'underline')
+
+" Sneak plugin specific highlighting
+call s:HL('SneakPluginTarget', yellow1, green1, 'underline')
+call s:HL('SneakStreakTarget', yellow1, green1, 'none')
+call s:HL('SneakStreakMask',   green1,  green1, 'none')
