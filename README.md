@@ -8,7 +8,7 @@ THIS IS SPARTA!!!!
 
 When analyzing the color schemes that I have been using for ages, I began to
 question what value the different colors were adding to my daily coding
-activities. The answer I arrived that was nothing. Sparta is my attempt at
+activities. The answer I arrived that was nothing. Spartan is my attempt at
 providing only the necessary coloring. Spartan is simple, frugal and highly
 effective.
 
